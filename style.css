@@ -1,0 +1,30 @@
+
+.heading{
+    width: 60%;
+    font-size: 50px;
+    font-family: "Rubik Broken Fax", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 5px 5px 5px #333333;
+}
+
+#button1{
+    font-size: 22px;
+    width: 320px;
+    font-family: "Rubik Mono One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+canvas{
+    animation-name: animation1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-top: 80px;
+}
+
+@keyframes animation1 {
+    from{box-shadow: 1px 1px 40px slategray;}
+    to{box-shadow: 1px 1px 40px black;}
+}
+
